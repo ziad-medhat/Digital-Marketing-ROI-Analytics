@@ -1,43 +1,41 @@
 # Digital-Marketing-ROI-Analytics
 An end-to-end marketing analytics project analyzing campaign efficiency and Return on Investment (ROI). This project evaluates 900+ campaigns across organic, paid, and referral channels to identify high-performing strategies and optimize budget allocation.
 
-# Marketing Campaign Performance Tracker (Excel Analytics)
+# Marketing Campaign ROI & Performance Dashboard (Excel)
 
 ## 📌 Project Overview
-This project is a comprehensive **Marketing ROI Analysis** built entirely in **Microsoft Excel**. It evaluates the performance of 931 marketing campaigns across various digital channels (Organic, Paid, Promotion, and Referral). 
+This project is an interactive **Marketing Performance Dashboard** built using **Microsoft Excel**. It analyzes a dataset of 931 marketing campaigns to evaluate the efficiency of different channels (Organic, Paid, Promotion, and Referral) and their impact on revenue generation between 2022 and 2023.
 
-The goal was to transform raw campaign logs into a functional dashboard that identifies high-revenue channels and calculates normalized ROI to compare campaign success fairly across different budget scales.
+By normalizing ROI and adjusting revenue metrics, this dashboard provides a clear comparison of how different strategies perform across B2B and B2C target audiences.
 
-## 🛠️ Excel Techniques Used
-* **Data Cleaning:** Used to handle inconsistent campaign entries and date formatting.
-* **Pivot Tables & Charts:** Created summary views for channel distribution and year-over-year revenue growth.
-* **Advanced Formulas:** Utilized `IF`, `VLOOKUP/XLOOKUP`, and arithmetic modeling to calculate:
-    * **Adjusted Revenue:** Normalizing outliers for better trend analysis.
-    * **ROI Ratio:** Measuring the efficiency of every dollar spent.
-    * **Normalized ROI:** A 0-to-1 scale to rank campaign success.
-* **Data Visualization:** Built a dynamic dashboard using Slicers for interactive filtering by **Channel**, **Target Audience (B2B/B2C)**, and **Year**.
+## 🛠️ Tech Stack & Excel Techniques
+* **Data Engine:** Microsoft Excel
+* **Data Modeling:** Power Query (ETL) for cleaning 900+ campaign records.
+* **Analysis:** * **Pivot Tables:** For aggregating total revenue and average ROI by channel.
+    * **Advanced Formulas:** Calculated **Adjusted ROI**, **Conversion Rates**, and **Normalized ROI** (scaling performance for fair comparison).
+* **Visualization:** Dynamic charts (Bar, Area, and Pie) with **Interactive Slicers** for filtering by Year, Channel, and Audience.
 
-## 📂 Files in this Repository
-* **`marketing_campaigns.xlsx`**: The primary workbook containing:
-    * **Raw Data:** 900+ rows of campaign metrics.
-    * **Processing Layer:** Columns for calculated ratios and normalized metrics.
-    * **Dashboard:** The final visual report.
-* **`marketing_campaigns.csv`**: A flat-file version of the processed data for compatibility.
+## 📂 Data Summary
+The analysis is based on the following processed data:
+* **Total Campaigns:** 931 (balanced across all channels).
+* **Total Revenue:** ~$332.9 Million.
+* **Average ROI:** 7.12.
+* **Channels Analyzed:** Email, Social Media, Podcast, Influencer, and more.
 
-## 📊 Key Business Insights
-* **Campaign Reach:** Successfully tracked 931 campaigns with a near-even split across Promotion (251), Organic (229), Referral (228), and Paid (223) channels.
-* **Financial Impact:** Total Adjusted Revenue exceeded **$332 Million**, with an average Adjusted ROI of **7.12**.
-* **Top Performer:** Paid marketing showed the strongest start in 2022 with a **7.41 average ROI**.
-* **Audience Split:** Comparative analysis between **B2B** and **B2C** segments to determine the best-performing content types.
+## 📊 Key Insights from the Dashboard
+* **ROI Leaders:** **Paid** marketing led the way in 2022 with a **7.41 average ROI**, while **Organic** saw the highest growth in efficiency in 2023 (**7.34**).
+* **Channel Distribution:** The workload is evenly distributed, with **Promotion** having the highest number of unique campaigns (251).
+* **Revenue Trends:** Interactive "Adjusted Revenue" tracking allows users to see which months drive the most significant financial impact.
+* **Audience Comparison:** Direct filtering between **B2B** and **B2C** reveals how different channels resonate with different customer types.
 
-## 🚀 How to View the Dashboard
+## 🚀 How to View the Project
 1. Download the `marketing_campaigns.xlsx` file.
-2. Open it in **Microsoft Excel 2016 or newer**.
-3. Navigate to the **Dashboard** tab.
-4. Use the **Slicers (buttons)** on the side to filter the data by year or marketing channel—the charts will update automatically.
+2. Open in Excel (2016 or later recommended).
+3. Use the **Slicers** on the dashboard tab to filter the data. The charts will update in real-time to reflect your selection.
 
 ## 📈 Dashboard Preview
-![Marketing Excel Dashboard](Screenshot%202025-08-22%20172110%20(1).png)
+![Marketing Overview](Screenshot%202026-04-28%20025133.png)
+![Campaign Deep Dive](Screenshot%202026-04-28%20025212.png)
 
 ---
-*Developed as part of a Marketing Data Analytics portfolio.*
+*Developed as part of a Digital Marketing Data Analytics portfolio.*
