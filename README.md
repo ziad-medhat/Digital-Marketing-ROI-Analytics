@@ -70,5 +70,4 @@ An interactive interface built to communicate insights to non-technical stakehol
 *The final executive-level summary for business decision-making.*
 ![Executive Dashboard](Screenshot%202025-08-22%20172110%20(1).png)
 
----
-*Developed by [Your Name/Profile] as part of a professional Data Analytics portfolio.*
+
